@@ -5,7 +5,7 @@ import { ShoppingCart, Zap, BarChart3, Users, Globe, Lock } from "lucide-react";
 const apps = [
     {
         title: "CartSnap",
-        category: "Conversion",
+        category: "Cart & Checkout",
         description: "Enable wholesale customers to place large orders in seconds.",
         icon: ShoppingCart,
         color: "from-blue-500 to-indigo-500",

@@ -82,7 +82,7 @@ export function Hero() {
                             </div>
                             <div>
                                 <div className="text-white font-semibold text-sm">CartSnap</div>
-                                <div className="text-slate-400 text-xs text-nowrap">Conversion Booster</div>
+                                <div className="text-slate-400 text-xs text-nowrap">Cart & Checkout</div>
                             </div>
                         </div>
                         <div className="space-y-2">
@@ -119,11 +119,11 @@ export function Hero() {
                     >
                         <div className="flex items-center gap-3 mb-4">
                             <div className="p-2 bg-pink-500/20 rounded-lg text-pink-400">
-                                <Zap size={20} />
+                                <Users size={20} />
                             </div>
                             <div>
-                                <div className="text-white font-semibold text-sm">SpeedBoost</div>
-                                <div className="text-slate-400 text-xs">Performance Optimizer</div>
+                                <div className="text-white font-semibold text-sm">Accessifix AI</div>
+                                <div className="text-slate-400 text-xs">SEO & Accessibility</div>
                             </div>
                         </div>
                         <div className="flex items-center justify-between text-xs text-slate-300">
