@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Zap, ShoppingBag, Users } from "lucide-react";
+import { ArrowRight, Zap, ShoppingBag, Users, Shield } from "lucide-react";
 
 export function Hero() {
     return (
@@ -119,10 +119,10 @@ export function Hero() {
                     >
                         <div className="flex items-center gap-3 mb-4">
                             <div className="p-2 bg-pink-500/20 rounded-lg text-pink-400">
-                                <Users size={20} />
+                                <Shield size={20} />
                             </div>
                             <div>
-                                <div className="text-white font-semibold text-sm">Accessifix AI</div>
+                                <div className="text-white font-semibold text-sm">AccessiFix AI</div>
                                 <div className="text-slate-400 text-xs">SEO & Accessibility</div>
                             </div>
                         </div>

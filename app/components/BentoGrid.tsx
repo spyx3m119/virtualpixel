@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router";
-import { ShoppingCart, Zap, BarChart3, Users, Globe, Lock } from "lucide-react";
+import { ShoppingCart, Zap, BarChart3, Users, Globe, Lock, Shield } from "lucide-react";
 
 const apps = [
     {
@@ -13,13 +13,13 @@ const apps = [
         href: "/products/cartsnap",
     },
     {
-        title: "Accessifix AI",
-        category: "Performance",
-        description: "AI-powered for accessibility scanning and reporting.",
-        icon: Users,
-        color: "from-amber-400 to-orange-500",
+        title: "AccessiFix AI",
+        category: "Compliance",
+        description: "AI-powered accessibility scans, fixes, and compliance reports.",
+        icon: Shield,
+        color: "from-emerald-500 to-teal-600",
         size: "small",
-        href: "#",
+        href: "/products/accessifix",
     },
     {
         title: "Analytics Pro",
