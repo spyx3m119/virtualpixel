@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Zap, ShoppingBag } from "lucide-react";
+import { ArrowRight, Zap, ShoppingBag, Users } from "lucide-react";
 
 export function Hero() {
     return (
