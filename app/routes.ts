@@ -7,4 +7,5 @@ export default [
     route("faq", "routes/faq.tsx"),
     route("contact", "routes/contact.tsx"),
     route("products/cartsnap", "routes/products/cartsnap.tsx"),
+    route("products/accessifix", "routes/products/accessifix.tsx"),
 ] satisfies RouteConfig;

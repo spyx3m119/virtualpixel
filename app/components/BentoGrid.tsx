@@ -1,25 +1,25 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router";
-import { ShoppingCart, Zap, BarChart3, Users, Globe, Lock } from "lucide-react";
+import { ShoppingCart, Zap, BarChart3, Users, Globe, Lock, Shield } from "lucide-react";
 
 const apps = [
     {
         title: "CartSnap",
-        category: "Conversion",
-        description: "Recover abandoned carts with smart, automated persistent cart technology.",
+        category: "Cart & Checkout",
+        description: "Enable wholesale customers to place large orders in seconds.",
         icon: ShoppingCart,
         color: "from-blue-500 to-indigo-500",
         size: "large", // spans 2 cols
         href: "/products/cartsnap",
     },
     {
-        title: "SpeedBoost",
-        category: "Performance",
-        description: "Instantly optimize your store's loading speed and Core Web Vitals.",
-        icon: Zap,
-        color: "from-amber-400 to-orange-500",
+        title: "AccessiFix AI",
+        category: "Compliance",
+        description: "AI-powered accessibility scans, fixes, and compliance reports.",
+        icon: Shield,
+        color: "from-emerald-500 to-teal-600",
         size: "small",
-        href: "#",
+        href: "/products/accessifix",
     },
     {
         title: "Analytics Pro",
@@ -34,7 +34,7 @@ const apps = [
         title: "Social Proof",
         category: "Marketing",
         description: "Showcase real customer reviews and sales notifications.",
-        icon: Users,
+        icon: Zap,
         color: "from-pink-500 to-rose-500",
         size: "small",
         href: "#",

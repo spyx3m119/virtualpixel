@@ -56,7 +56,7 @@ export default function CartSnap() {
 
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 font-medium mb-8">
                     <ShoppingCart size={16} />
-                    <span>#1 Rated B2B Bulk Order App</span>
+                    <span>B2B Bulk Order App</span>
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
